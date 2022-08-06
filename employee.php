@@ -8,7 +8,7 @@
     <title>Register</title>
 </head>
 <?php
-    require 'phpSession.php';
+    require 'SessionHeader.php';
         $supervisor=$_SESSION['usrid'];
 ?>
 
@@ -21,7 +21,7 @@
                 <input type="hidden" name="supervisor" id="name" placeholder="Enter the name of your Supervisor" value=<?php echo "{$supervisor}";?>>
             </div>
         <?php
-            include 'registrationForm.php';
+            include 'FormHeader.php';
         ?>
             <div>
                 <input type="submit" value="Register">

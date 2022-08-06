@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-        session_start();
+        require 'SessionHeader.php';
         unset($_SESSION['usrid']);
         session_destroy();
     ?>

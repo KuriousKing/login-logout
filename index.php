@@ -16,7 +16,7 @@
 
         <h1>Registeration for supervisor with email id</h1>
         <form action="register.php" method="get">
-            <?php include 'registrationForm.php'; ?>
+            <?php include 'FormHeader.php'; ?>
             <div>
                 <input type="submit" value="Register as Supervisor">
             </div>

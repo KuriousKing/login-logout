@@ -9,7 +9,7 @@
 <body>
     <center>
         <?php
-        require 'phpSession.php';
+        require 'SessionHeader.php';
         $name=$_SESSION['usrid'];
             $conn=mysqli_connect("localhost", "root", "", "staff");
 

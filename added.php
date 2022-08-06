@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-        require 'phpSession.php';
+        require 'SessionHeader.php';
         $conn=mysqli_connect("localhost", "root", "", "staff");
         $supervisor=$_REQUEST['supervisor'];
         $name=$_REQUEST['name'];
